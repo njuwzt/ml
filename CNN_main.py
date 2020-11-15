@@ -39,8 +39,8 @@ if __name__ == '__main__':
     trainSet = datasets.MNIST(root="./data",transform=Transform,train=True,download=True)
     testSet = datasets.MNIST(root="./data",transform=Transform,train=False)
     #装载训练集，测试集，一个batch数据集64张图
-    trainLoader = torch.utils.data.DataLoader(dataset=trainSet,batch_size = 64,shuffle = True,num_workers=2) 
-    testLoader = torch.utils.data.DataLoader(dataset=testSet,batch_size = 64,shuffle = True,num_workers=2)
+    trainLoader = torch.utils.data.DataLoader(dataset=trainSet,batch_size = 64,shuffle = True,num_workers=0) 
+    testLoader = torch.utils.data.DataLoader(dataset=testSet,batch_size = 64,shuffle = True,num_workers=0)
     model = normalCNN()
     model.to(device)
     #g=make_dot(model(torch.rand(64,1,28,28)),params=dict(model.named_parameters()))
