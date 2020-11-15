@@ -1,0 +1,61 @@
+cuda:0
+Epoch 0/19
+----------
+Train Accuracy is 96.1750%,Test Accuracy is 98.0500%,trainLoss is 0.0020,testLoss is 0.0010
+Epoch 1/19
+----------
+Train Accuracy is 98.5933%,Test Accuracy is 98.4900%,trainLoss is 0.0007,testLoss is 0.0008
+Epoch 2/19
+----------
+Train Accuracy is 99.1017%,Test Accuracy is 98.6900%,trainLoss is 0.0004,testLoss is 0.0007
+Epoch 3/19
+----------
+Train Accuracy is 99.3533%,Test Accuracy is 98.6000%,trainLoss is 0.0003,testLoss is 0.0008
+Epoch 4/19
+----------
+Train Accuracy is 99.5200%,Test Accuracy is 98.9400%,trainLoss is 0.0002,testLoss is 0.0007
+Epoch 5/19
+----------
+Train Accuracy is 99.6600%,Test Accuracy is 98.7400%,trainLoss is 0.0002,testLoss is 0.0010
+Epoch 6/19
+----------
+Train Accuracy is 99.7283%,Test Accuracy is 98.7800%,trainLoss is 0.0001,testLoss is 0.0010
+Epoch 7/19
+----------
+Train Accuracy is 99.7500%,Test Accuracy is 98.8600%,trainLoss is 0.0001,testLoss is 0.0010
+Epoch 8/19
+----------
+Train Accuracy is 99.7467%,Test Accuracy is 98.6600%,trainLoss is 0.0001,testLoss is 0.0012
+Epoch 9/19
+----------
+Train Accuracy is 99.8467%,Test Accuracy is 98.9000%,trainLoss is 0.0001,testLoss is 0.0011
+Epoch 10/19
+----------
+Train Accuracy is 99.8583%,Test Accuracy is 98.9300%,trainLoss is 0.0001,testLoss is 0.0011
+Epoch 11/19
+----------
+Train Accuracy is 99.8583%,Test Accuracy is 98.9700%,trainLoss is 0.0001,testLoss is 0.0013
+Epoch 12/19
+----------
+Train Accuracy is 99.8417%,Test Accuracy is 98.7100%,trainLoss is 0.0001,testLoss is 0.0016
+Epoch 13/19
+---------- 
+Train Accuracy is 99.8650%,Test Accuracy is 98.9100%,trainLoss is 0.0001,testLoss is 0.0013
+Epoch 14/19
+---------- 
+Train Accuracy is 99.8983%,Test Accuracy is 98.6900%,trainLoss is 0.0001,testLoss is 0.0016
+Epoch 15/19
+---------- 
+Train Accuracy is 99.9117%,Test Accuracy is 98.8500%,trainLoss is 0.0001,testLoss is 0.0015
+Epoch 16/19
+---------- 
+Train Accuracy is 99.9083%,Test Accuracy is 98.9100%,trainLoss is 0.0001,testLoss is 0.0012
+Epoch 17/19
+---------- 
+Train Accuracy is 99.9133%,Test Accuracy is 98.8900%,trainLoss is 0.0001,testLoss is 0.0014
+Epoch 18/19
+---------- 
+Train Accuracy is 99.9100%,Test Accuracy is 98.9100%,trainLoss is 0.0001,testLoss is 0.0015
+Epoch 19/19
+---------- 
+Train Accuracy is 99.9267%,Test Accuracy is 98.8300%,trainLoss is 0.0000,testLoss is 0.0018
