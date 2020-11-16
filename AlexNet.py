@@ -63,15 +63,15 @@ if __name__ == '__main__':
     #损失函数使用交叉熵
     cost = nn.CrossEntropyLoss()
     #优化计算方式选择：
-    #optimizer = torch.optim.SGD(model.parameters(),lr=1e-3)
-    optimizer = torch.optim.SGD(model.parameters(),lr=1e-3, momentum=0.9)
+    optimizer = torch.optim.SGD(model.parameters(),lr=1e-3)
+    #optimizer = torch.optim.SGD(model.parameters(),lr=1e-3, momentum=0.9)
     #optimizer = torch.optim.Adam(model.parameters(),lr=1e-3,betas=(0.9,0.99))
     model.to(device)
     #神经网络图结构绘制
     #g=make_dot(model(torch.rand(64,1,28,28)),params=dict(model.named_parameters()))
     #g.view()
 
-    epochSize = 20
+    epochSize = 40
     runLoss_list=[]
     testLoss_list=[]
     accuracy_list=[]
